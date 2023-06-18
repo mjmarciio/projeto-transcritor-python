@@ -44,7 +44,7 @@ def transcrever_audio(audio_file):
     texto_transcrito = ' '.join(transcriptions)
     return texto_transcrito
 
-# Arquivo de áudio que você deseja transcrever (deve ser um arquivo de áudio suportado, como .wav)
+# Arquivo de áudio para transcrever (precisa ser do tipo .wav)
 audio_file = "audio.wav"
 
 # Chamar a função para transcrever o áudio
